@@ -1,4 +1,5 @@
 <?php
+// author: dards
 include_once("modules/mod_crypt.php");
 
 $_file    =    isset($_GET['file'])? $_GET['file']:"";
