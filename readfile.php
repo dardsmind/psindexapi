@@ -58,7 +58,7 @@ function output_file($file, $name, $mime_type='')
          };
      };
 
-     //$mime_type="application/pdf";
+     //$mime_type="application/pdf"; //
      @ob_end_clean(); //turn off output buffering to decrease cpu usage
 
      // required for IE, otherwise Content-Disposition may be ignored
@@ -112,4 +112,6 @@ function GenerateRandomNumber($len = 8){
     }
     return $pass;
 }
+
+
 ?>
